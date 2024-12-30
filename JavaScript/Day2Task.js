@@ -42,3 +42,4 @@ function callback2(callback,a,b)
     return callback(a,b);
 }
 console.log(callback2(callback,1,2));
+

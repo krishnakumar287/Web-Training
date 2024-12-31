@@ -1,0 +1,22 @@
+
+.Footer
+{
+    background-color: black;
+    color: wheat;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+label
+{
+    text-align: left;
+}
+

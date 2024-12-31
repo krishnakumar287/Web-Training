@@ -8,15 +8,27 @@
     position: fixed;
     bottom: 0px;
     width: 100vw;
+    
 }
 .form
 {
     display: flex;
     flex-direction: column;
     width: 50%;
+    
 }
 label
 {
     text-align: left;
+    padding-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+button{
+    cursor: pointer;
+    margin-top: 2px;
+    width: 20%;
+    align-self: center;
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;
+}

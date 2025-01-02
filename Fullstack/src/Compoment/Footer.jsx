@@ -1,10 +1,12 @@
 import '../assets/Css/Footer.css'
+import { useState } from 'react';
 const Footer = () => {
+  
     return (
     <div className='Footer'>
        <div className="form">
        <label>Name:</label>
-       <input type="text" placeholder='Enter your name' />
+       <input type="text" placeholder='Enter your name value={name}'/>
        <label>Email:</label>
        <input type="email" placeholder='Enter your email'/>
        <label>Message:</label>
@@ -13,6 +15,7 @@ const Footer = () => {
          Submit
       </button>
        </div>
+
      </div>
     )
   }

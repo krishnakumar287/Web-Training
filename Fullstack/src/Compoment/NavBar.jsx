@@ -13,6 +13,7 @@ var NavBar=()=>
                     <li><Link to="/useeffect">UseEffect</Link></li>
                     <li><Link to="/UseRef">UseRef</Link></li>
                     <li><Link to="/UseContext">UseContext</Link></li>
+                    <li><Link to="/UseMemo">UseMemo</Link></li>
                     </ul>
                     </nav>
             </header>

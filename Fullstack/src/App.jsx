@@ -1,5 +1,4 @@
 
-
 import NavBar from './Compoment/NavBar'
 import Home from './Compoment/Home'
 import Contact from './Compoment/Conatct'
@@ -9,6 +8,7 @@ import Footer from './Compoment/Footer'
 import UseEffect from './Compoment/Useeffect'
 import UseRef from './Compoment/UseRef'
 import UseContext from './Compoment/UseContext'
+import UseMemo from './Compoment/UseMemo'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 function App() {
@@ -25,10 +25,11 @@ function App() {
         <Route path='/useeffect' element={<UseEffect/>}/>
         <Route path="/UseRef" element={<UseRef />} />
         <Route path="/UseContext" element={<UseContext />} />
+        <Route path="/UseMemo" element={<UseMemo />} />
        </ Routes>
     </BrowserRouter>
     <Footer/>
-    <UseRef/>
+    
     
     </div>
   )

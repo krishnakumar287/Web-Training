@@ -9,6 +9,7 @@ import UseEffect from './Compoment/Useeffect'
 import UseRef from './Compoment/UseRef'
 import UseContext from './Compoment/UseContext'
 import UseMemo from './Compoment/UseMemo'
+import SignUp from './Compoment/SignUp'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/UseRef" element={<UseRef />} />
         <Route path="/UseContext" element={<UseContext />} />
         <Route path="/UseMemo" element={<UseMemo />} />
+        <Route path="/signup" element={<SignUp />} />
        </ Routes>
     </BrowserRouter>
     <Footer/>
